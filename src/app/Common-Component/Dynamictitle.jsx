@@ -9,3 +9,6 @@ export default function Dynamictitle({title,maintitle,description}) {
     </div>
   )
 }
+
+// MONGODB_URI="mongodb+srv://CarDoctor:uMDlowWXmn517aNy@cluster0.g1qcw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+// DB_Name=CarDoctorDB

@@ -14,13 +14,13 @@ export default function Slider() {
   return (
         <>
       <Swiper className="mySwiper">
-        <SwiperSlide><Image src={banner1} className='w-full h-[600px]  rounded-3xl'/></SwiperSlide>
-        <SwiperSlide><Image src={banner3} className='w-full h-[600px]  rounded-3xl'/></SwiperSlide>
-        <SwiperSlide><Image src={banner2} className='w-full h-[600px] rounded-3xl'/></SwiperSlide>
-        <SwiperSlide><Image src={banner4} className='w-full h-[600px] rounded-3xl'/></SwiperSlide>
-        <SwiperSlide><Image src={banner6} className='w-full h-[600px] rounded-3xl'/></SwiperSlide>
-        <SwiperSlide><Image src={banner5} className='w-full h-[600px] rounded-3xl'/></SwiperSlide>
+        <SwiperSlide><Image src={banner1} className='w-full md:h-[750px] h-[400px] inset-0 bg-gradient-to-t from-black via-black/85 to-transparent rounded-3xl'/></SwiperSlide>
+        <SwiperSlide><Image src={banner3} className='w-full md:h-[750px] h-[400px]  rounded-3xl'/></SwiperSlide>
+        <SwiperSlide><Image src={banner2} className='w-full md:h-[750px] h-[400px] rounded-3xl'/></SwiperSlide>
+        <SwiperSlide><Image src={banner4} className='w-full md:h-[750px] h-[400px] rounded-3xl'/></SwiperSlide>
+        <SwiperSlide><Image src={banner6} className='w-full md:h-[750px] h-[400px] rounded-3xl'/></SwiperSlide>
+        <SwiperSlide><Image src={banner5} className='w-full md:h-[750px] h-[400px] rounded-3xl'/></SwiperSlide>
       </Swiper>
-    </>
+    </> 
   );
 }
